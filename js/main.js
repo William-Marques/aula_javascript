@@ -1,8 +1,40 @@
 
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("http://www.graficamarkesil.com.br/");
+    //window.location.href = "http://www.graficamarkesil.com.br/";
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //alert("troca texto");
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("pagina carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
-
+*/
+/*
 var validar=0;
 function validaIdade(idade){
     if(idade >=18){
@@ -16,6 +48,7 @@ function validaIdade(idade){
 var idade = prompt("Qual sua idade?")
 validaIdade(idade)
 console.log(validar);
+*/
 
 //alert(soma(5, 10));
 /*
